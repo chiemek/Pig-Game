@@ -173,7 +173,7 @@ main {
 @media (max-width: 750px) {
   main {
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
   }
 
   .btn {
@@ -181,21 +181,22 @@ main {
     left: 80%;
     height: 5rem;
     padding: 0;
-    width: 10rem;
+    width: 9rem;
   }
 
   .btn--new {
-    top: 47%;
-    left: 15%;
+    top: 0%;
+    left: 12%;
   }
   .btn--roll {
-    top: 42%;
+    top: 90%;
     left: 90%;
   }
   .btn--hold {
-    top: 51%;
-    left: 90%;
+    top: 90%;
+    left: 10%;
   }
+
   .btn::first-letter {
     font-size: 1rem;
     margin-right: 0.2rem;
