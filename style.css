@@ -185,14 +185,16 @@ main {
   }
 
   .btn--new {
-    top: 8rem;
+    top: 47%;
     left: 15%;
   }
   .btn--roll {
-    top: 10rem;
+    top: 42%;
+    left: 90%;
   }
   .btn--hold {
-    top: 16rem;
+    top: 51%;
+    left: 90%;
   }
   .btn::first-letter {
     font-size: 1rem;
