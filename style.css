@@ -169,3 +169,21 @@ main {
 .hidden {
   display: none;
 }
+
+@media (max-width: 750px) {
+  main {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .btn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dice {
+    height: 8rem;
+    top: 45%;
+    left: 70%;
+  }
+}
